@@ -1,0 +1,35 @@
+{
+  "cloudwatch_metrics": [
+    {
+      "timestamp": "2025-10-10T10:00:00Z",
+      "value": 100,
+      "unit": "Count",
+      "metric_name": "NumberOfObjects",
+      "namespace": "AWS/S3"
+    }
+  ],
+  "config_compliance": [
+    {
+      "resource_type": "AWS::S3::Bucket",
+      "resource_id": "chaossec-test-bucket",
+      "compliance_type": "NON_COMPLIANT",
+      "config_rule": "s3-bucket-public-read-prohibited",
+      "result_recorded_time": "2025-10-10T10:05:00Z"
+    }
+  ],
+  "cloudtrail_events": [
+    {
+      "event_id": "12345",
+      "event_name": "PutBucketAcl",
+      "event_time": "2025-10-10T10:00:00Z",
+      "username": "chaossec-agent",
+      "resources": [
+        {
+          "resource_type": "AWS::S3::Bucket",
+          "resource_name": "chaossec-test-bucket"
+        }
+      ]
+    }
+  ]
+}
+

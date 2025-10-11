@@ -1,0 +1,11 @@
+[
+  {
+    "iteration_id": "iter-1760136130",
+    "timestamp": "2025-10-10T22:42:10.791454",
+    "target": "s3-chaossec-test-bucket",
+    "chaos_type": "make_s3_public",
+    "outcome": "success_simulated",
+    "test_passed": true,
+    "findings_count": 98
+  }
+]

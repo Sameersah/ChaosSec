@@ -1,0 +1,47 @@
+{
+  "results": [
+    {
+      "check_id": "python.lang.security.audit.dangerous-system-call",
+      "path": "src/test.py",
+      "start": {
+        "line": 15,
+        "col": 5
+      },
+      "end": {
+        "line": 15,
+        "col": 30
+      },
+      "extra": {
+        "severity": "ERROR",
+        "message": "Detected dangerous system call. Avoid using os.system() with user input.",
+        "lines": "os.system(user_input)",
+        "metadata": {
+          "cwe": ["CWE-78: OS Command Injection"],
+          "owasp": ["A1: Injection"]
+        }
+      }
+    },
+    {
+      "check_id": "aws.s3.public-bucket-exposure",
+      "path": "infrastructure/s3.tf",
+      "start": {
+        "line": 10,
+        "col": 3
+      },
+      "end": {
+        "line": 10,
+        "col": 25
+      },
+      "extra": {
+        "severity": "WARNING",
+        "message": "S3 bucket configured with public access. Ensure this is intentional.",
+        "lines": "acl = \"public-read\"",
+        "metadata": {
+          "frameworks": ["SOC2", "ISO27001"]
+        }
+      }
+    }
+  ],
+  "errors": []
+}
+

@@ -1,0 +1,12 @@
+{
+  "control_id": "CC8.1",
+  "framework": "soc2",
+  "test_result": "pass",
+  "timestamp": "2025-10-10T22:45:22.163076",
+  "correlation_id": "e86353c3-eb78-4054-8d9e-097a85f08da9",
+  "details": {
+    "findings": 0,
+    "severity_breakdown": {}
+  },
+  "source": "chaossec-agent"
+}

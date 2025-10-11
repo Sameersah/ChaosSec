@@ -1,0 +1,12 @@
+{
+  "control_id": "CC7.2",
+  "framework": "soc2",
+  "test_result": "operational",
+  "timestamp": "2025-10-10T22:45:22.673854",
+  "correlation_id": "e86353c3-eb78-4054-8d9e-097a85f08da9",
+  "details": {
+    "metrics_collected": 0,
+    "monitoring_active": true
+  },
+  "source": "chaossec-agent"
+}
