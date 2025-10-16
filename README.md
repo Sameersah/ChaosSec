@@ -1,6 +1,6 @@
 # 🔐 ChaosSec: Autonomous Chaos & Security Agent
 **contributor**: Shruti Goyal (Github:[ @shrutiebony](https://github.com/shrutiebony))
-
+**Hackathon Project AWS AI Agents** - https://luma.com/awshackathon?tk=uNhjuL
 
 ChaosSec is an autonomous agent that continuously performs chaos testing and self-hardening on AWS infrastructure. It simulates security scenarios, detects vulnerabilities, and provides compliance evidence automatically.
 
